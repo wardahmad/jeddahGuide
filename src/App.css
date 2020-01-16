@@ -2,9 +2,92 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contDis{
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  
+}
+
+
+
+.navDark {
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+} 
+
+.Navbar{
+  display:flex;
+}
+
+/* .NavJed{
+  flex-direction: column;
+  justify-content: center;
+} */
+
+.AppIc{
+  justify-content: flex-start;
+  margin-left: 0;
+  
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 0 !important;
+  margin-right: auto;
+  margin-left: 0 !important;
+}
+
+.HomeIcon{
+  justify-content: flex-end;
+  
+  }
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+}
+
+ .nav-link {
+  color: rgb(216, 216, 216) !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #fdd86a !important;
+}
+
+.CardCont{
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  
+  
+}
+
+.card-body{
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 10px 0px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -36,3 +119,31 @@
     transform: rotate(360deg);
   }
 }
+
+.appFont{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.displayH3{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  
+}
+
+
+
+.displayPar{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 50px;
+  font-weight: bold;
+  color: #4a0416;
+  font-size: 20px;
+}
+
+.cardHov:hover{
+  background-color: #98C8DA;
+}
+
