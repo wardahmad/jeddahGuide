@@ -7,11 +7,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-import Cafes from './Cafes';
-import Hotels from './Hotels';
-import Places from './Places';
-import Restaurant from './Restaurant';
-import Activities from './Activities'
+import List from './List';
 import guide from './DB' //Import the file where the data is stored.
 import NavbarMain from './Navbar'
 
@@ -96,11 +92,11 @@ class App extends Component {
         Restaurant, Cafes, Places, Hotels, and Activites
         and send the appropriate array to that component as props named 'list' */}
 
-        <Route path="/restaurants" component={() => <Restaurant list={restaurants} />} />
-        <Route path="/cafes" component={() => <Cafes list={cafes} />} />
-        <Route path="/places" component={() => <Places list={places} />} />
-        <Route path="/hotels" component={() => <Hotels list={hotels} />} />
-        <Route path="/activities" component={() => <Activities list={activities} />} />
+        <Route path="/restaurants" component={() => <List list={restaurants} />} />
+        <Route path="/cafes" component={() => <List list={cafes} />} />
+        <Route path="/places" component={() => <List list={places} />} />
+        <Route path="/hotels" component={() => <List list={hotels} />} />
+        <Route path="/activities" component={() => <List list={activities} />} />
 
       </Router>
 
