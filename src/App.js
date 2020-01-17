@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Card } from 'react-bootstrap/';
-
+import Footer from './Footer'
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -97,6 +97,8 @@ class App extends Component {
         <Route path="/places" component={() => <List list={places} />} />
         <Route path="/hotels" component={() => <List list={hotels} />} />
         <Route path="/activities" component={() => <List list={activities} />} />
+
+        <Footer />
 
       </Router>
 

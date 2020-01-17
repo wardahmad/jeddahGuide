@@ -75,11 +75,11 @@ body{
   text-align: center;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 30px;
 }
 
 .contChild{
   display: flex;
   justify-content: center;
-
 }
 
