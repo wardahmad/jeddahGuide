@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/jeddahGuide/static/css/main.e8d7b7fc.chunk.css",
+    "main.js": "/jeddahGuide/static/js/main.7bdde8fb.chunk.js",
+    "main.js.map": "/jeddahGuide/static/js/main.7bdde8fb.chunk.js.map",
+    "runtime-main.js": "/jeddahGuide/static/js/runtime-main.d91de658.js",
+    "runtime-main.js.map": "/jeddahGuide/static/js/runtime-main.d91de658.js.map",
+    "static/css/2.712a3911.chunk.css": "/jeddahGuide/static/css/2.712a3911.chunk.css",
+    "static/js/2.d5654b03.chunk.js": "/jeddahGuide/static/js/2.d5654b03.chunk.js",
+    "static/js/2.d5654b03.chunk.js.map": "/jeddahGuide/static/js/2.d5654b03.chunk.js.map",
+    "index.html": "/jeddahGuide/index.html",
+    "precache-manifest.309f8e6359a177ae88a7cac221a0b939.js": "/jeddahGuide/precache-manifest.309f8e6359a177ae88a7cac221a0b939.js",
+    "service-worker.js": "/jeddahGuide/service-worker.js",
+    "static/css/2.712a3911.chunk.css.map": "/jeddahGuide/static/css/2.712a3911.chunk.css.map",
+    "static/css/main.e8d7b7fc.chunk.css.map": "/jeddahGuide/static/css/main.e8d7b7fc.chunk.css.map",
+    "static/js/2.d5654b03.chunk.js.LICENSE": "/jeddahGuide/static/js/2.d5654b03.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d91de658.js",
+    "static/css/2.712a3911.chunk.css",
+    "static/js/2.d5654b03.chunk.js",
+    "static/css/main.e8d7b7fc.chunk.css",
+    "static/js/main.7bdde8fb.chunk.js"
+  ]
+}
