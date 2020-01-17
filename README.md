@@ -43,20 +43,18 @@ To install the react project, fork and clone this repository then use git bash t
 The main component rendered by ``` index.js```. It handles the display of the main navigation bar that allows the user to choose the type of place they wish to see a list of, whether it's a restaurant, cafe, hotel, a place or an activity. As well as taking care of the defining the routes to each one of the components responsible for displaying the corresponding list of places, which will be achieved when the user clicks on the link associated with that place.
 
 ### Components 
-The application has 9 other components:
-  * ``` Restaurant ```
-  * ``` Cafes ```
-  * ``` Hotels ```
-  * ``` Places ```
-  * ``` Activities ```
-<br>Each one of the previous 5 components recieves a list that corresponds to the component name (sent by ``` App.js``` when routing to that component), for example: the ``` Restaurant ``` component will recieve a list of restaurants, the ``` Cafes ``` component will recieve a list of cafes, and so on.
-<br>The main purpose of each one of the components is to display the list it recieves and enable the user to click on a specific item to display more information about it.
+The application has 6 other components:
+* ``` NavbarMain ```
+<br> Returns the main bar shown at the very top of the website. Which includes the application name and logo, as well as a link to the homepage.
+* ``` Footer ```
+<br> Handles the display of a footer at the bottom of the webpage.
+* ``` List ```
+<br>Responsible for displaying the list it recieves from ``` App.js``` through routing. The list recieved as props can be a list of restaurants, cafes, places, hotels or activities.
+<br>The main purpose of each one of the components is to show a list of choices and enable the user to click on a specific item to display more information about it.
 * ``` Display ```
 <br> Displays information of the place/item chosen by the user from any of the previous components where it'll be rendered.
 * ``` Show Carousel ```
 <br> Rendered by the ``` Display ``` component to show multiple images of the currently displayed place/item using ``` Bootstrap Carousel ``` as part of the inormation related to that place.
-* ``` NavbarMain ```
-<br> returns the main bar shown at the very top of the website. Which includes the application name and logo, as well as a link to the homepage.
 * ``` Map ```
 Rendered by the ```Display ``` component, it handles showing a map pointing to the location of the currently displayed item/place as a marker on that map using Bing Maps API.
 
@@ -73,7 +71,7 @@ This project was recreated and repushed to GitHub. A link to the previous GitHub
  * Upgrade the map to handle showing multiple markers representing branches of that place (if applicaple).
  * Replace Bing Maps API with Google Maps API.
  * Add the ability to users to sign up/ sign in.
- * Add the aility to users to add a place to a favorite list.
+ * Add the ability to users to add a place to a favorite list.
 
  
 
