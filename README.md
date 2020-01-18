@@ -16,10 +16,10 @@
 * Display the place's location using a map.
 
 
-<img align="center" src="images/1.PNG"></img>
-<img align="center" src="images/2.PNG"></img>
-<img align="center" src="images/3.PNG"></img>
-<img align="center" src="images/4.PNG"></img>
+# <img align="center" src="images/1.PNG"></img>
+# <img align="center" src="images/2.PNG"></img>
+# <img align="center" src="images/3.PNG"></img>
+# <img align="center" src="images/4.PNG"></img>
 
 ## Installation
 To install the react project, fork and clone this repository then use git bash terminal to run the command
