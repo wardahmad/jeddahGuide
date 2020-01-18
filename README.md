@@ -5,12 +5,20 @@
 # Jeddah Guide 
 <img align="center" src="images/Jeddah_Guide_Logo.png"></img>
 
+
+# Deployed link:
+<a href="https://wardahmad.github.io/jeddahGuide/"> here </a>
+
 ## App Features
 * Provide the user with navigation menu supported with an image to view pages showing different kinds of places (Restaurants, hotels, cafes ..etc)
 * Provide the user with details related to the item/ place that the user clicks on, including the name and a brief description.
 * Display the current weather in Jeddah.
 * Display the place's location using a map.
 
+<img align="center" src="images/1.png"></img>
+<img align="center" src="images/2.png"></img>
+<img align="center" src="images/3.png"></img>
+<img align="center" src="images/4.png"></img>
 
 ## Installation
 To install the react project, fork and clone this repository then use git bash terminal to run the command
